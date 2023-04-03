@@ -1,0 +1,31 @@
+.timer {
+    background-color: var(--primary-color);
+    height: 300px;
+    color: white;
+    
+}
+@media (max-width:576px) {
+    .timer {
+        height: 500px;
+    }
+}
+.timer img {
+    width: 50% !important;
+}
+.timer span {
+    color: white;
+    font-size: 17px;
+}
+.timer p {
+    color: white;
+    font-size: 22px;
+    font-weight: bold
+}
+.timer button {
+    width: fit-content;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+}

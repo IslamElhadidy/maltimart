@@ -1,0 +1,32 @@
+.product__item img {
+    max-width: 100%;
+}
+.product__item h5 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.product__item > span {
+    margin-top: -6px;
+    color: var(--small-text-color);
+    font-size: 14px;
+}
+.product__item .product__price span {
+    font-weight: bold;
+}
+.product__item .product__price button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: var(--primary-color);
+    color: white;
+}
+.product__item img {
+    transition: 0.5s all;
+}
+.product__item img:hover {
+    transform: scale(1.02);
+}

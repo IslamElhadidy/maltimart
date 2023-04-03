@@ -1,0 +1,28 @@
+.truck__icon {
+    font-size: 25px;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+.services__items {
+    cursor: pointer;
+}
+.services__items {
+    padding: 10px 10px;
+    border-radius: 7px;
+    
+}
+.services__items .items__content h2 {
+    font-size: 20px;
+}
+.services__items .items__content p {
+    font-size: 15px;
+}
+.services__hero {
+    margin-top: 50px;
+}

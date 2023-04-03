@@ -1,0 +1,12 @@
+.clock__date {
+    padding: 15px 0;
+}
+
+.clock__date .days > span {
+    font-size: 20px !important;
+    font-weight: bold;
+}
+.clock__date .days > p {
+    font-size: 14px !important;
+    font-weight: 400;
+}

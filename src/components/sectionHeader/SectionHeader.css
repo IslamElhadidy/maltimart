@@ -1,0 +1,14 @@
+.section__header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.688) , rgba(0, 0, 0, 0.688)), url(../../assets/images/hero-img.png) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section__header h1 {
+    color: white;
+    font-weight: bold;
+}

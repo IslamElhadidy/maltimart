@@ -1,0 +1,45 @@
+.filter__Wrapper input ,
+.filter__Wrapper select ,
+.search__box  input{
+    width: 100%;
+    outline: none;
+}
+
+@media (max-width:576px) {
+    .filter__Wrapper input ,
+.filter__Wrapper select ,
+.search__box  input{
+    width: auto;
+    outline: none;
+}
+}
+.search__box input {
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 7px;
+    border: 1px solid var(--primary-color);
+}
+.search__box  i {
+    margin-left: -30px;
+}
+
+.filter__Wrapper select {
+    background-color: var(--primary-color);
+    border-radius: 7px;
+    color: white;
+    padding: 6px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+.not_found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-weight: bold;
+
+}
+.not_found img {
+    width:70px;
+    height: 70px;
+}

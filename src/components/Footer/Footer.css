@@ -1,0 +1,27 @@
+section {
+    padding: 60px 0 30px 0 !important;
+}
+
+.footer {
+    background-color: var(--primary-color);
+}
+.footer h6 {
+    font-weight: bold;
+    color: white;
+}
+.footer p,
+.footer span,
+.footer i {
+    color: rgb(252, 246, 246);
+    font-weight: 200;
+}
+.footer .address,
+.footer .phone,
+.footer .gmail {
+    white-space: nowrap;
+    font-size: 12px;
+}
+.footer span a:hover ,
+.footer a:hover{
+    color: rgb(252, 176, 176) !important;
+}

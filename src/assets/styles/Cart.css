@@ -1,0 +1,46 @@
+table tbody tr td img {
+    width: 50px !important;
+    height: 50px !important;
+}
+.table_container {
+    overflow-x: auto;
+}
+.not_found a,
+.total a {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    border-radius: 8px;
+}
+.not_found a:hover ,
+.total a:hover{
+    color: white !important;
+}
+.sub_total span {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.not_found img {
+    width: 40px !important;
+    height: 40px !important;
+}
+@media (max-width:480px) {
+    .not_found {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:991px) {
+    .not_found  {
+        font-size: 10px !important;
+    }
+    .not_found a {
+        font-size: 10px;
+    }
+}
+@media (max-width:991px) {
+    table {
+        font-size: 10px;
+    }
+}

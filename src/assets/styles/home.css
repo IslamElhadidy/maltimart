@@ -1,0 +1,21 @@
+.hero__section {
+    background-color: #D3E2FD;
+    margin-top: 20px ;
+}
+.hero__section p {
+    color: black;
+}
+.hero__section h6 {
+    font-weight: 600;
+}
+.hero__section h1 {
+    font-weight: bold;
+}
+.hero__section .btn_hero {
+    width: fit-content;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 4px 20px;
+}

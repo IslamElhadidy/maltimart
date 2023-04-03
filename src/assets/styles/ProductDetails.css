@@ -1,0 +1,37 @@
+.tabs {
+    margin-top: -70px;
+}
+
+.product_detail .rating span p {
+    color: rgb(249, 186, 68);
+    font-weight: bold;
+}
+.product_detail .rating i {
+    color: rgb(249, 186, 68);
+}
+.price_category h5 {
+    font-weight: bold;
+}
+.price_category span > p {
+    font-weight: bold;
+    color: black;
+}
+.product_content h4 {
+    font-weight: bold;
+}
+.product_detail button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 10px;
+    background-color: var(--primary-color);
+    color: white;
+}
+.related p {
+    font-size: 16px;
+    color: black;
+    margin-left: 20px;
+    font-weight: 600;
+}

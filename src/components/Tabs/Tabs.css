@@ -1,0 +1,84 @@
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected p{
+    color: black !important;
+    border: none !important;
+}
+.css-heg063-MuiTabs-flexContainer {
+    border: none;
+}
+.css-1gsv261 {
+    border: none !important;
+}
+.css-1aquho2-MuiTabs-indicator {
+    background-color: white !important;
+}
+.css-8je8zh-MuiTouchRipple-root:focus{
+    background-color: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    text-transform: none !important;
+}
+/* .css-1wcaknn {
+    padding: 15px !important;
+} */
+.css-ahj2mt-MuiTypography-root {
+    font-size: 14px !important;
+}
+.reviews h6 {
+    font-size: 13px !important;
+    color: black;
+}
+.reviews p {
+   color:  rgb(249, 186, 68);
+   margin-bottom: 10px;
+}
+
+.exp input ,
+.exp textarea{
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    outline: none;
+    resize: none;
+}
+@media (max-width:575px) {
+    .exp input ,
+    .exp textarea{
+    width: 100% !important;
+}
+}
+
+.exp input::placeholder,
+.exp textarea::placeholder {
+    color: gray;
+}
+
+.exp input,
+.exp textarea {
+    width: 70%;
+}
+.stars{
+    cursor: pointer;
+    padding-top: 20px;
+}
+.stars p {
+    padding-bottom: 20px !important;
+}
+.stars i {
+    padding-top: 1px;
+    color: rgb(249, 186, 68);
+}
+.exp button {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 10px;
+    background-color: var(--primary-color);
+    color: white !important;
+    cursor: pointer;
+}
